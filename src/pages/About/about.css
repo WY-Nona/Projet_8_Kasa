@@ -1,0 +1,11 @@
+.aboutContainer {
+  padding: 32px 0 40px 0;
+}
+@media screen and (max-width: 768px) {
+  .aboutContainer {
+    padding: 0px 0px 35px 0px;
+  }
+}
+.aboutContainer__img {
+  filter: brightness(1.8);
+}/*# sourceMappingURL=About.css.map */
