@@ -1,0 +1,67 @@
+
+.ficheLogementContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+}
+.ficheLogementContainer h3{
+    margin-top:8px;
+    margin-bottom:0;
+    display: flex;
+    align-items:end;
+    flex-direction: column;
+    font-weight: 400;
+    margin-right:5px;
+}
+
+.ficheLogementProprietaire{
+    display:flex;    
+}
+.imgProprietaire{
+    width: 64px;
+    height:64px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.noteProprietaire{
+    font-size: 28px;
+    color: #D3D3D3;
+}
+
+.note_active{
+color: #FF6060;
+}
+
+/*SMALL DEVICES*/
+@media screen and (max-width : 700px){
+
+   
+
+   .ficheLogementContainer{
+    display:flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    position:relative;
+   }
+
+   .imgProprietaire{
+    width: 42px;
+    height:42px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+   .noteProprietaire{
+    position:absolute;
+    left:0;
+    bottom:8px;
+    font-size: 20px;
+    
+   }
+   .ficheLogementProprietaire{
+    margin-top:5px;
+    font-size:12px;
+   }
+}

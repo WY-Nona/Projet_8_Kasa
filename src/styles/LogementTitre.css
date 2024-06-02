@@ -1,0 +1,38 @@
+
+.ficheLogementTitre{
+    flex-grow: 1;
+}
+.ficheLogementTitre h1{
+    margin-top:0;
+}
+
+.ficheLogementTag{
+
+    background-color: #FF6060;
+    color:white;
+    border-radius: 10px;
+    padding: 6px 20px;
+    margin-right:20px;
+}
+
+/*SMALL DEVICES*/
+@media screen and (max-width : 700px){
+    .ficheLogementTitre h1{
+        font-size:24px;
+       } 
+       .ficheLogementTitre h2{
+        font-size:16px;
+       }
+
+       .ficheLogementTags{
+        display:flex;
+        flex-wrap: wrap;
+        gap:8px;
+
+       }
+
+    .ficheLogementTag{
+       
+        font-size:10px;
+    }
+}

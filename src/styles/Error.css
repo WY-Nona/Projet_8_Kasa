@@ -1,0 +1,55 @@
+.errorDivGlobal{
+    color: #FF6060;
+    font-family:'Montserrat';
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+}
+
+.error404{
+    font-size:200px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.errorP1{
+    font-size:24px;
+    font-weight: 700;
+    margin-bottom:30px;
+}
+
+.errorP2{
+    margin-bottom:90px;
+    font-size:14px;
+    color:#FF6060;
+    text-decoration: none;
+}
+
+.errorP2:hover{
+    text-decoration: underline;
+}
+
+/*SMALL DEVICE*/
+
+@media screen and (max-width : 700px){
+
+
+    .errorDivGlobal{
+        width: 100%;
+    }
+.error404{
+    font-size: 100px; 
+}
+
+.errorP1{
+    font-size:18px;
+}
+.errorP1Span{
+    display:block;
+}
+
+.errorP2{
+    margin-bottom: 160px;
+}
+
+}

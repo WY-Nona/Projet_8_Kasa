@@ -1,0 +1,29 @@
+.ficheLogementTotal{
+    color: #FF6060;
+    font-family: 'Montserrat';
+}
+
+.titreLogement{
+    display: flex;
+}
+.descriptionLogement{
+    display: flex;
+}
+
+li {
+    list-style : none;
+}
+
+
+/*SMALL DEVICES*/
+@media screen and (max-width : 700px){
+
+.titreLogement{
+    flex-direction: column;
+}
+
+.descriptionLogement{
+    flex-direction: column;
+}
+
+}
